@@ -38,6 +38,7 @@ setup(
     url='https://github.com/harlowja/fasteners',
     license="ASL 2.0",
     install_requires=install_requires,
+    extras_require={'dev': ['testtools']},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
